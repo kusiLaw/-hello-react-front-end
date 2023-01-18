@@ -1,21 +1,18 @@
-import React from "react";
+import React from 'react';
 
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 
-import Greetings from './components/greetings'
+import Greetings from './components/greetings';
 
-
-const App = () => {
- return (
+const App = () => (
   <>
-   <div className='App'>
+    <div className="App">
       <Routes>
         <Route path="/" element={<Greetings />} />
       </Routes>
-   </div>
+    </div>
   </>
- 
- );
-}
+
+);
 
 export default App;
